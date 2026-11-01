@@ -1,7 +1,7 @@
 import { createContext } from 'react'
 
 export const SavedContext = createContext(null)
-export const SAVED_STORAGE_KEY = 'bariq-saved-pieces'
+export const SAVED_STORAGE_KEY = 'shimmer-saved-pieces'
 
 export function readSaved() {
   if (typeof window === 'undefined') return []

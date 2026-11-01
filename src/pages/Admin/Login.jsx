@@ -36,7 +36,7 @@ export default function AdminLogin() {
     <div className="admin-login">
       <form className="admin-login__card" onSubmit={handleLogin}>
         <div>
-          <h1>Bariq Admin</h1>
+          <h1>Shimmer Admin</h1>
           <p>Sign in to manage the catalogue, pages and media.</p>
         </div>
 

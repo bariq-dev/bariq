@@ -3,5 +3,5 @@ Allow: /
 Disallow: /admin
 Disallow: /admin/
 
-# Replace https://bariq.studio with the live domain before launch.
-Sitemap: https://bariq.studio/sitemap.xml
+# Replace https://shimmer.studio with the live domain before launch.
+Sitemap: https://shimmer.studio/sitemap.xml

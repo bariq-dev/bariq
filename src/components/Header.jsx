@@ -41,7 +41,7 @@ export default function Header({ onOpenMenu, onOpenSearch }) {
           </nav>
         </div>
 
-        <Link to="/" className="wordmark" aria-label="Bariq — home">
+        <Link to="/" className="wordmark" aria-label="Shimmer — home">
           <span className="wordmark__ar" lang="ar" dir="rtl">
             {site.nameAr}
           </span>

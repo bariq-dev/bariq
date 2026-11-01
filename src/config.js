@@ -6,10 +6,10 @@ const cleanUrl = (value) => (value || '').replace(/\/+$/, '')
 
 export const config = Object.freeze({
   // Replace with the live domain before launch.
-  siteUrl: cleanUrl(env.VITE_SITE_URL || 'https://bariq.studio'),
+  siteUrl: cleanUrl(env.VITE_SITE_URL || 'https://shimmer.studio'),
   // Orders are handled through Instagram DM only.
-  instagramUrl: env.VITE_INSTAGRAM_URL || 'https://instagram.com/bariq.studio',
-  instagramHandle: env.VITE_INSTAGRAM_HANDLE || '@bariq.studio',
+  instagramUrl: env.VITE_INSTAGRAM_URL || 'https://instagram.com/shimmer.studio',
+  instagramHandle: env.VITE_INSTAGRAM_HANDLE || '@shimmer.studio',
   // The catalogue is priced in Egyptian pounds only.
   defaultCurrency: (env.VITE_DEFAULT_CURRENCY || 'EGP').toUpperCase(),
   // No advertising or behavioural tracking is used on this site.

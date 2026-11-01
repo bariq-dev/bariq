@@ -1,8 +1,8 @@
-# Bariq — بريق
+# Shimmer — بريق
 
 **Waterproof stainless-steel jewelry, made for every day in Egypt.**
 
-Bariq is an Egyptian jewelry house working in high-grade 316L stainless steel
+Shimmer is an Egyptian jewelry house working in high-grade 316L stainless steel
 with warm gold PVD and brushed silver finishes. This repository is the public
 catalogue and the small admin panel the owner uses to keep it current.
 
@@ -118,11 +118,11 @@ Create `.env.local` (see `.env.example` if present) with:
 
 ```bash
 # Public site URL — used for canonical, OG and JSON-LD URLs.
-VITE_SITE_URL=https://bariq.studio
+VITE_SITE_URL=https://shimmer.studio
 
 # Instagram ordering
-VITE_INSTAGRAM_URL=https://instagram.com/bariq.studio
-VITE_INSTAGRAM_HANDLE=@bariq.studio
+VITE_INSTAGRAM_URL=https://instagram.com/shimmer.studio
+VITE_INSTAGRAM_HANDLE=@shimmer.studio
 
 # Catalogue currency (EGP only)
 VITE_DEFAULT_CURRENCY=EGP
@@ -143,7 +143,7 @@ The Instagram handle, site URL, prices, delivery fees and returns language are
 ## SEO
 
 - `index.html` holds the default title, description, canonical and Open Graph
-  tags. Replace `https://bariq.studio` with the live domain before launch.
+  tags. Replace `https://shimmer.studio` with the live domain before launch.
 - `src/hooks/usePageMeta.js` manages per-page metadata and JSON-LD.
 - `src/services/seo.js` builds Organization, WebSite, Product, Breadcrumb,
   Collection and FAQ structured data. Product offers use `priceCurrency: EGP`
@@ -182,9 +182,9 @@ first via `prebuild`.
 - [ ] **Returns policy** — placeholder language in `site.js` and the product page
 - [ ] **Product copy and photography** — review every piece for accuracy
 - [ ] **Legal pages** — have privacy and terms reviewed for Egypt
-- [ ] **Final brand approval** — Bariq means “shimmer / glint of light” in Arabic
+- [ ] **Final brand approval** — Shimmer means “shimmer / glint of light” in Arabic
 
 There is intentionally no cart, checkout, account system, discount code, gift
 card, newsletter, blog or care-guide page.
-"# bariq" 
-"# bariq" 
+"# shimmer" 
+"# shimmer" 

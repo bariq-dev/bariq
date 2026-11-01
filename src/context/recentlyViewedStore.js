@@ -2,7 +2,7 @@ import { createContext } from 'react'
 import { readJson } from '../services/storage'
 
 export const RecentlyViewedContext = createContext(null)
-export const RECENTLY_VIEWED_KEY = 'bariq-recently-viewed'
+export const RECENTLY_VIEWED_KEY = 'shimmer-recently-viewed'
 export const RECENTLY_VIEWED_LIMIT = 8
 
 export function readRecentlyViewed() {

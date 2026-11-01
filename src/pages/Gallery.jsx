@@ -16,7 +16,7 @@ import atelier from '../assets/images/atelier.jpg'
 const studioShots = [
   {
     src: editorial,
-    alt: 'Bariq campaign portrait in warm afternoon light',
+    alt: 'Shimmer campaign portrait in warm afternoon light',
     caption: 'Campaign N° 01 — First Light',
     span: 'wide',
   },
@@ -28,7 +28,7 @@ const studioShots = [
   },
   {
     src: atelier,
-    alt: 'Hands finishing a piece of jewelry in the Bariq studio',
+    alt: 'Hands finishing a piece of jewelry in the Shimmer studio',
     caption: 'In the studio, Cairo',
     span: '',
   },
@@ -46,7 +46,7 @@ export default function Gallery() {
 
   usePageMeta(
     'Gallery',
-    'A closer look at Bariq — waterproof stainless-steel jewelry in gold and silver, photographed in the Cairo studio and worn in warm light.',
+    'A closer look at Shimmer — waterproof stainless-steel jewelry in gold and silver, photographed in the Cairo studio and worn in warm light.',
   )
 
   const filters = [

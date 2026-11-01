@@ -6,7 +6,7 @@ import { usePageMeta } from '../hooks/usePageMeta'
 export default function NotFound() {
   usePageMeta(
     'Page not found',
-    'The page you were looking for could not be found. Return to the Bariq shop.',
+    'The page you were looking for could not be found. Return to the Shimmer shop.',
   )
 
   return (

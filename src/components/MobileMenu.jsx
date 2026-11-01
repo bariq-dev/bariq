@@ -21,7 +21,7 @@ export default function MobileMenu({ open, onClose }) {
       inert={!open}
     >
       <div className="mobile-menu__top container">
-        <Link to="/" className="wordmark" onClick={onClose} aria-label="Bariq — home">
+        <Link to="/" className="wordmark" onClick={onClose} aria-label="Shimmer — home">
           <span className="wordmark__ar" lang="ar" dir="rtl">
             {site.nameAr}
           </span>
@@ -88,7 +88,7 @@ export default function MobileMenu({ open, onClose }) {
             href={site.instagram}
             target="_blank"
             rel="noreferrer"
-            aria-label="Bariq on Instagram"
+            aria-label="Shimmer on Instagram"
           >
             <Instagram size={17} />
           </a>

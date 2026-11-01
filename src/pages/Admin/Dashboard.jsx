@@ -16,7 +16,7 @@ export default function AdminDashboard() {
         <div>
           <h1 className="admin-title">Dashboard</h1>
           <p className="admin-subtitle">
-            Manage the Bariq catalogue and the details customers see on the site.
+            Manage the Shimmer catalogue and the details customers see on the site.
             Products are priced in EGP and ordered through Instagram DM.
           </p>
         </div>
@@ -72,7 +72,7 @@ export default function AdminDashboard() {
           </span>
         </Link>
         <a
-          href="https://instagram.com/bariq.studio"
+          href="https://instagram.com/shimmer.studio"
           className="admin-quick-link"
           target="_blank"
           rel="noreferrer"

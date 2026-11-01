@@ -8,10 +8,10 @@ function deliver(payload) {
   if (typeof window === 'undefined') return
   window.dataLayer = window.dataLayer || []
   window.dataLayer.push(payload)
-  window.dispatchEvent(new CustomEvent('bariq:analytics', { detail: payload }))
+  window.dispatchEvent(new CustomEvent('shimmer:analytics', { detail: payload }))
   if (import.meta.env.DEV) {
     // Helpful while building; silent in production.
-    console.debug('[bariq:analytics]', payload)
+    console.debug('[shimmer:analytics]', payload)
   }
 }
 

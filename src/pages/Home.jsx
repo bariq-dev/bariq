@@ -39,7 +39,7 @@ export default function Home() {
 
   usePageMeta(
     null,
-    'Bariq — waterproof stainless-steel jewelry in Egypt. Gold and silver necklaces, rings, earrings and bracelets, delivered to every governorate with cash on delivery.',
+    'Shimmer — waterproof stainless-steel jewelry in Egypt. Gold and silver necklaces, rings, earrings and bracelets, delivered to every governorate with cash on delivery.',
     {
       jsonLd: graph(organizationJsonLd(), websiteJsonLd()),
       jsonLdId: 'home',
@@ -77,7 +77,7 @@ export default function Home() {
                 <ArrowUpRight size={15} />
               </Link>
               <Link to="/story" className="link-underline">
-                The house of Bariq
+                The house of Shimmer
                 <ArrowRight size={14} />
               </Link>
             </Reveal>
@@ -150,7 +150,7 @@ export default function Home() {
             </Reveal>
 
             <Reveal as="p" className="manifesto__lede" delay={140}>
-              Bariq began with a simple idea: jewelry should not ask you to be
+              Shimmer began with a simple idea: jewelry should not ask you to be
               careful. Our pieces are made from high-grade stainless steel,
               finished in gold or silver, and designed for real life.
             </Reveal>

@@ -1,4 +1,4 @@
-// The Bariq starter catalogue.
+// The Shimmer starter catalogue.
 //
 // Prices are placeholders in Egyptian pounds (EGP) and should be confirmed by
 // the client before launch. Images are logical keys resolved by the image

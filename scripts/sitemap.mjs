@@ -10,7 +10,7 @@ import path from 'node:path'
 import process from 'node:process'
 import { products } from '../src/data/products.js'
 
-const siteUrl = (process.env.VITE_SITE_URL || 'https://bariq.studio').replace(
+const siteUrl = (process.env.VITE_SITE_URL || 'https://shimmer.studio').replace(
   /\/+$/,
   '',
 )

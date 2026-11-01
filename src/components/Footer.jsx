@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="footer__brand">
-          <Link to="/" aria-label="Bariq — home">
+          <Link to="/" aria-label="Shimmer — home">
             <span className="footer__wordmark">{site.name}</span>
             <span className="footer__arabic" lang="ar" dir="rtl">
               {site.nameAr}
@@ -83,7 +83,7 @@ export default function Footer() {
               href={site.instagram}
               target="_blank"
               rel="noreferrer"
-              aria-label="Bariq on Instagram"
+              aria-label="Shimmer on Instagram"
             >
               <Instagram size={16} />
             </a>

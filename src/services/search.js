@@ -1,7 +1,7 @@
 import { products } from '../data/products'
 import { readJson, writeJson } from './storage'
 
-export const RECENT_SEARCHES_KEY = 'bariq-recent-searches'
+export const RECENT_SEARCHES_KEY = 'shimmer-recent-searches'
 const MAX_RECENT = 6
 
 const STOP_WORDS = new Set([

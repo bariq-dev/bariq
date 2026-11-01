@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------------------
-// Bariq image pipeline
+// Shimmer image pipeline
 //
 // Reads the photography in src/assets/images and emits responsive AVIF, WebP
 // and JPEG derivatives into public/media, plus a generated manifest consumed

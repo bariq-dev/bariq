@@ -20,7 +20,7 @@ export default function CircularSeal({ className = '' }) {
       <g className="circular-seal__ring">
         <text>
           <textPath href={`#${pathId}`} startOffset="0">
-            HAND-FINISHED · SMALL BATCHES · BARIQ ·
+            HAND-FINISHED · SMALL BATCHES · Shimmer ·
           </textPath>
         </text>
       </g>

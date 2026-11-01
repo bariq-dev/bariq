@@ -1,5 +1,5 @@
 -- ---------------------------------------------------------------------------
--- Bariq catalogue schema for Supabase
+-- Shimmer catalogue schema for Supabase
 --
 -- Run this in the Supabase SQL editor (or with the Supabase CLI) once. It is
 -- idempotent: re-running it adds missing columns and refreshes policies.

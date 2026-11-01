@@ -168,7 +168,7 @@ export default function Shop() {
 
   usePageMeta(
     activeCategory === 'all' ? 'Shop' : `${activeLabel} — Shop`,
-    'Shop waterproof stainless-steel jewelry from Bariq — gold and silver necklaces, rings, earrings and bracelets, priced in EGP and delivered across Egypt.',
+    'Shop waterproof stainless-steel jewelry from Shimmer — gold and silver necklaces, rings, earrings and bracelets, priced in EGP and delivered across Egypt.',
     {
       url: `/shop${activeCategory === 'all' ? '' : `?category=${activeCategory}`}`,
       jsonLd: graph(

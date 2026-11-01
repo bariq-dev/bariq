@@ -29,7 +29,7 @@ function upsertLink(rel, href) {
 }
 
 function upsertJsonLd(id, json) {
-  const scriptId = `bariq-jsonld-${id}`
+  const scriptId = `shimmer-jsonld-${id}`
   const existing = document.getElementById(scriptId)
   if (!json) {
     existing?.remove()

@@ -14,7 +14,7 @@ const content = {
       {
         heading: 'What we collect',
         body: [
-          'Bariq is a catalogue site. There are no accounts, no checkout and no newsletter. When you message us on Instagram, Instagram shares the details you choose to send — typically your Instagram handle, your city and the piece you are asking about. We use those details only to answer your message and arrange your order.',
+          'Shimmer is a catalogue site. There are no accounts, no checkout and no newsletter. When you message us on Instagram, Instagram shares the details you choose to send — typically your Instagram handle, your city and the piece you are asking about. We use those details only to answer your message and arrange your order.',
           'If you place an order, we also keep the delivery address and order details needed to fulfil it.',
         ],
       },
@@ -46,7 +46,7 @@ const content = {
       {
         heading: 'Contact',
         body: [
-          `Bariq, ${site.location}. For any privacy question, message us on Instagram at ${site.instagramHandle}.`,
+          `Shimmer, ${site.location}. For any privacy question, message us on Instagram at ${site.instagramHandle}.`,
         ],
       },
     ],
@@ -61,7 +61,7 @@ const content = {
       {
         heading: 'About this site',
         body: [
-          'This website is a catalogue of the Bariq collection. Pieces are offered by Instagram DM rather than through an online checkout. Prices are shown in Egyptian pounds (EGP) and are confirmed with you before an order is placed.',
+          'This website is a catalogue of the Shimmer collection. Pieces are offered by Instagram DM rather than through an online checkout. Prices are shown in Egyptian pounds (EGP) and are confirmed with you before an order is placed.',
         ],
       },
       {
@@ -103,13 +103,13 @@ const content = {
       {
         heading: 'Intellectual property',
         body: [
-          'The Bariq name, wordmark, photography, text and designs on this site are our property or used with permission. They may not be reproduced or used commercially without our written consent.',
+          'The Shimmer name, wordmark, photography, text and designs on this site are our property or used with permission. They may not be reproduced or used commercially without our written consent.',
         ],
       },
       {
         heading: 'Contact',
         body: [
-          `Questions about these terms can be sent to us on Instagram at ${site.instagramHandle}. Bariq, ${site.location}.`,
+          `Questions about these terms can be sent to us on Instagram at ${site.instagramHandle}. Shimmer, ${site.location}.`,
         ],
       },
     ],
@@ -121,7 +121,7 @@ export default function Legal({ kind = 'privacy' }) {
 
   usePageMeta(
     page.title,
-    `${page.title} for Bariq — waterproof stainless-steel jewelry in Egypt, ordered by Instagram DM with cash on delivery.`,
+    `${page.title} for Shimmer — waterproof stainless-steel jewelry in Egypt, ordered by Instagram DM with cash on delivery.`,
   )
 
   return (
@@ -144,7 +144,7 @@ export default function Legal({ kind = 'privacy' }) {
             <Link to="/contact">Ordering &amp; contact</Link>
           </nav>
           <Link to="/" className="link-underline legal__back">
-            Back to Bariq
+            Back to Shimmer
             <ArrowUpRight size={13} />
           </Link>
         </aside>

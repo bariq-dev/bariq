@@ -27,7 +27,7 @@ const steps = [
 export default function Contact() {
   usePageMeta(
     'Contact & ordering',
-    'How to order Bariq jewelry in Egypt: Instagram DM, cash on delivery, delivery to all governorates, and answers to common questions about sizing, sold-out pieces and returns.',
+    'How to order Shimmer jewelry in Egypt: Instagram DM, cash on delivery, delivery to all governorates, and answers to common questions about sizing, sold-out pieces and returns.',
   )
 
   return (
@@ -41,7 +41,7 @@ export default function Contact() {
             then it is <em>yours.</em>
           </>
         }
-        intro="Bariq is a catalogue, not a checkout. Every order is placed by Instagram DM so we can confirm availability, the delivery fee for your city and cash on delivery personally."
+        intro="Shimmer is a catalogue, not a checkout. Every order is placed by Instagram DM so we can confirm availability, the delivery fee for your city and cash on delivery personally."
       />
 
       <section className="contact">

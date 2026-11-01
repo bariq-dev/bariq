@@ -57,7 +57,7 @@ export default function AdminLayout() {
     <div className="admin-shell">
       <aside className="admin-sidebar">
         <Link to="/admin" className="admin-brand">
-          <strong>Bariq</strong>
+          <strong>Shimmer</strong>
           <span>Content studio</span>
         </Link>
 

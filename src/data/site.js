@@ -2,11 +2,11 @@ import { config } from '../config'
 import { formatMoney } from '../services/currency'
 
 export const site = {
-  name: 'Bariq',
+  name: 'Shimmer',
   nameAr: 'بريق',
   tagline: 'Waterproof stainless steel jewelry.',
   description:
-    'Bariq is an Egyptian jewelry house crafting waterproof stainless-steel pieces in gold and silver finishes — necklaces, rings, earrings and bracelets, delivered across Egypt.',
+    'Shimmer is an Egyptian jewelry house crafting waterproof stainless-steel pieces in gold and silver finishes — necklaces, rings, earrings and bracelets, delivered across Egypt.',
   url: config.siteUrl,
   instagram: config.instagramUrl,
   instagramHandle: config.instagramHandle,
@@ -147,7 +147,7 @@ export const sizeGuides = {
     title: 'Ring sizes',
     intro:
       'Measure the inner diameter of a ring that fits you, or wrap a strip of paper around your finger and measure its length. If you are between sizes, choose the larger — or ask us on Instagram.',
-    columns: ['Bariq size', 'Inner diameter', 'Circumference', 'UK', 'US'],
+    columns: ['Shimmer size', 'Inner diameter', 'Circumference', 'UK', 'US'],
     rows: [
       ['5', '15.7 mm', '49.3 mm', 'J½', '5'],
       ['6', '16.5 mm', '51.9 mm', 'L½', '6'],
@@ -174,7 +174,7 @@ export const sizeGuides = {
     title: 'Bracelets & bangles',
     intro:
       'Measure the circumference of your wrist just below the wrist bone, then add 1–1.5 cm for a comfortable fit.',
-    columns: ['Bariq size', 'Wrist circumference', 'Fit'],
+    columns: ['Shimmer size', 'Wrist circumference', 'Fit'],
     rows: [
       ['S', '14–15 cm', 'Close'],
       ['M', '15–17 cm', 'Classic'],

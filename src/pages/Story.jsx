@@ -14,7 +14,7 @@ import stillLife from '../assets/images/still-life.jpg'
 export default function Story() {
   usePageMeta(
     'Our story',
-    'Bariq is an Egyptian jewelry house making waterproof stainless-steel pieces in gold and silver — designed to be worn every day and delivered across Egypt.',
+    'Shimmer is an Egyptian jewelry house making waterproof stainless-steel pieces in gold and silver — designed to be worn every day and delivered across Egypt.',
   )
 
   return (
@@ -28,13 +28,13 @@ export default function Story() {
             on <em>light.</em>
           </>
         }
-        intro="Bariq — بريق — is the Arabic word for the glint of light on a surface. It is the thing we look for in every piece: not shine, but the quiet moment when an object catches the sun."
+        intro="Shimmer — بريق — is the Arabic word for the glint of light on a surface. It is the thing we look for in every piece: not shine, but the quiet moment when an object catches the sun."
       />
 
       <Reveal className="story-hero" variant="mask">
         <img
           src={editorial}
-          alt="Bariq campaign portrait in warm afternoon light"
+          alt="Shimmer campaign portrait in warm afternoon light"
           fetchPriority="high"
         />
         <div className="story-hero__caption container">
@@ -83,7 +83,7 @@ export default function Story() {
                 ✦
               </span>
               <div>
-                <strong>The Bariq studio</strong>
+                <strong>The Shimmer studio</strong>
                 <span>{site.location}</span>
               </div>
             </Reveal>
@@ -100,7 +100,7 @@ export default function Story() {
             “Luxury is not the amount of gold. It is the amount of attention.”
           </Reveal>
           <Reveal as="span" className="story-quote__attribution" delay={140}>
-            — The Bariq studio notes
+            — The Shimmer studio notes
           </Reveal>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function Story() {
           <Reveal className="story-atelier__media" variant="mask">
             <img
               src={atelier}
-              alt="Hands finishing a piece of jewelry in the Bariq studio"
+              alt="Hands finishing a piece of jewelry in the Shimmer studio"
               loading="lazy"
             />
             <span className="story-atelier__caption">The studio, Cairo.</span>
@@ -179,7 +179,7 @@ export default function Story() {
             </Reveal>
             <Reveal as="p" className="story-atelier__text" delay={140}>
               We keep the studio small so every piece can be checked by hand before
-              it is wrapped. A Bariq order is not packed by a system — it is packed
+              it is wrapped. A Shimmer order is not packed by a system — it is packed
               by someone who knows the piece by name.
             </Reveal>
             <Reveal as="p" className="story-atelier__text" delay={190}>

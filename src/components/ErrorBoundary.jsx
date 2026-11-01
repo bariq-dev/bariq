@@ -25,7 +25,7 @@ export default class ErrorBoundary extends Component {
       componentStack: info?.componentStack?.slice(0, 500),
     })
     if (import.meta.env.DEV) {
-      console.error('[bariq] render error', error, info)
+      console.error('[shimmer] render error', error, info)
     }
   }
 
