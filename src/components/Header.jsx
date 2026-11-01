@@ -42,9 +42,6 @@ export default function Header({ onOpenMenu, onOpenSearch }) {
         </div>
 
         <Link to="/" className="wordmark" aria-label="Shimmer — home">
-          <span className="wordmark__ar" lang="ar" dir="rtl">
-            {site.nameAr}
-          </span>
           <span className="wordmark__en">{site.name}</span>
         </Link>
 

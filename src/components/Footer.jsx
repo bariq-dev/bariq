@@ -63,9 +63,6 @@ export default function Footer() {
         <div className="footer__brand">
           <Link to="/" aria-label="Shimmer — home">
             <span className="footer__wordmark">{site.name}</span>
-            <span className="footer__arabic" lang="ar" dir="rtl">
-              {site.nameAr}
-            </span>
           </Link>
           <p>{site.tagline}</p>
         </div>

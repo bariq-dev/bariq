@@ -619,13 +619,6 @@ h6 {
   line-height: 1;
 }
 
-.wordmark__ar {
-  font-family: var(--arabic);
-  font-size: 0.92rem;
-  line-height: 1;
-  color: var(--gold-deep);
-}
-
 .wordmark__en {
   padding-left: 0.34em;
   font-family: var(--serif);

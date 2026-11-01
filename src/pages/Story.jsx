@@ -28,7 +28,7 @@ export default function Story() {
             on <em>light.</em>
           </>
         }
-        intro="Shimmer — بريق — is the Arabic word for the glint of light on a surface. It is the thing we look for in every piece: not shine, but the quiet moment when an object catches the sun."
+        intro="Shimmer — is the Arabic word for the glint of light on a surface. It is the thing we look for in every piece: not shine, but the quiet moment when an object catches the sun."
       />
 
       <Reveal className="story-hero" variant="mask">
