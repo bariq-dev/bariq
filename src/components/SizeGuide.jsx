@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import { buildInstagramLink, sizeGuides } from '../data/site'
 import { Close, Ruler } from './Icons'
 
@@ -8,6 +9,7 @@ export default function SizeGuide({ kind, onClose }) {
 
   useEffect(() => {
     if (!kind) return undefined
+    const opener = document.activeElement
     const onKey = (event) => {
       if (event.key === 'Escape') onClose()
     }
@@ -18,12 +20,13 @@ export default function SizeGuide({ kind, onClose }) {
       window.removeEventListener('keydown', onKey)
       document.body.classList.remove('no-scroll')
       window.clearTimeout(timer)
+      if (opener && typeof opener.focus === 'function') opener.focus()
     }
   }, [kind, onClose])
 
   if (!guide) return null
 
-  return (
+  return createPortal(
     <div className="modal modal--size is-open" role="presentation">
       <button
         type="button"
@@ -73,13 +76,13 @@ export default function SizeGuide({ kind, onClose }) {
             <tbody>
               {guide.rows.map((row) => (
                 <tr key={row[0]}>
-                  {row.map((cell, index) =>
-                    index === 0 ? (
-                      <th key={cell} scope="row">
+                  {row.map((cell, cellIndex) =>
+                    cellIndex === 0 ? (
+                      <th key={cellIndex} scope="row">
                         {cell}
                       </th>
                     ) : (
-                      <td key={`${row[0]}-${cell}`}>{cell}</td>
+                      <td key={cellIndex}>{cell}</td>
                     ),
                   )}
                 </tr>
@@ -99,6 +102,7 @@ export default function SizeGuide({ kind, onClose }) {
           Ask us for sizing help on Instagram
         </a>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }
