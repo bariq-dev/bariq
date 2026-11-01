@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+
+# Replace https://shimmer.studio with the live domain before launch.
+Sitemap: https://shimmer.studio/sitemap.xml
