@@ -3,7 +3,6 @@ import { formatMoney } from '../services/currency'
 
 export const site = {
   name: 'Shimmer',
-  nameAr: 'بريق',
   tagline: 'Waterproof stainless steel jewelry.',
   description:
     'Shimmer is an Egyptian jewelry house crafting waterproof stainless-steel pieces in gold and silver finishes — necklaces, rings, earrings and bracelets, delivered across Egypt.',

@@ -1,4 +1,4 @@
-# Shimmer — بريق
+# Shimmer
 
 **Waterproof stainless-steel jewelry, made for every day in Egypt.**
 
