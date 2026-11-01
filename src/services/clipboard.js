@@ -1,29 +1,33 @@
-// Copying order details is a convenience, not a requirement. Instagram does not
-// reliably support prefilled DMs, so the customer can paste the message we copy.
-export async function copyText(text) {
-  if (!text) return false
+export function copyText(text) {
+  // Legacy path: synchronous, reliable inside a user click
+  try {
+    const area = document.createElement('textarea')
+    area.value = text
+    area.setAttribute('readonly', '')
+    area.style.position = 'fixed'
+    area.style.top = '0'
+    area.style.left = '0'
+    area.style.opacity = '0'
+    document.body.appendChild(area)
+    area.focus()
+    area.select()
+    area.setSelectionRange(0, text.length) // iOS
+    const ok = document.execCommand('copy')
+    document.body.removeChild(area)
+    if (ok) return true
+  } catch {
+    // fall through
+  }
 
+  // Modern path (started synchronously, result not awaited)
   try {
     if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(text)
+      navigator.clipboard.writeText(text).catch(() => { })
       return true
     }
   } catch {
-    // Fall through to the legacy path below.
+    // ignore
   }
 
-  try {
-    const field = document.createElement('textarea')
-    field.value = text
-    field.setAttribute('readonly', '')
-    field.style.position = 'fixed'
-    field.style.opacity = '0'
-    document.body.appendChild(field)
-    field.select()
-    const copied = document.execCommand('copy')
-    document.body.removeChild(field)
-    return copied
-  } catch {
-    return false
-  }
+  return false
 }

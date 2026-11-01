@@ -3,10 +3,6 @@ import { buildInstagramLink } from '../data/site'
 import { copyText } from '../services/clipboard'
 import { Instagram } from './Icons'
 
-/**
- * Instagram is the only order channel. Instagram cannot reliably prefill a DM,
- * so we open the inbox and copy the piece details for the customer to paste.
- */
 export default function OrderButton({
   message = '',
   label = 'Order on Instagram',
@@ -17,13 +13,16 @@ export default function OrderButton({
   const [copied, setCopied] = useState(false)
 
   const handleClick = () => {
-    window.open(buildInstagramLink(), '_blank', 'noopener,noreferrer')
-    if (!message) return
-    copyText(message).then((ok) => {
-      if (!ok) return
+    // 1. Copy FIRST, synchronously inside the click, while the page has focus
+    const ok = message ? copyText(message) : false
+
+    if (ok) {
       setCopied(true)
       window.setTimeout(() => setCopied(false), 2600)
-    })
+    }
+
+    // 2. Then open Instagram
+    window.open(buildInstagramLink(), '_blank', 'noopener,noreferrer')
   }
 
   return (
